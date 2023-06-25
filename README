@@ -1,0 +1,42 @@
+Flask Chatbot
+Flask Chatbot is an advanced web application built using Flask, SQLite, and OpenAI's ChatGPT-3 API. It provides a conversational chatbot interface where users can interact with an AI-powered bot to obtain information, ask questions, and engage in natural language conversations.
+
+Features
+User Registration and Authentication: Users can create accounts, log in, and log out securely. User credentials are stored in a SQLite database and password hashes are used for enhanced security.
+
+Real-time Chat Interface: Users can chat with the AI-powered chatbot in a real-time interface. Messages are sent asynchronously and displayed in a visually appealing and interactive chat log.
+
+Natural Language Processing: The chatbot leverages OpenAI's ChatGPT-3 API to process and generate natural language responses. It utilizes advanced language models to understand user queries and provide accurate and relevant information.
+
+Persistent Chat History: The chat history is stored in the SQLite database, allowing users to view past conversations and resume chat sessions seamlessly.
+
+Responsive Design: The web application is designed to be responsive and compatible with various devices, ensuring a seamless user experience across desktop and mobile platforms.
+
+User-Friendly Interface: The user interface is designed with a modern and intuitive layout, featuring dynamic animations, colorful speech bubbles, and an interactive chat log.
+
+Installation and Usage
+1. Clone the repository:
+git clone <repository_url>
+
+2. Install the dependencies:
+pip install -r requirements.txt
+
+3. Set up the database:
+python manage.py db upgrade
+
+4. Set the environment variables:
+
+Create a .env file based on the provided
+.env.example file and update the necessary values.
+
+5. Run the application:
+python app.py
+
+6. Access the application in your web browser:
+http://localhost:5000
+
+Contributions
+Contributions to the Flask Chatbot project are welcome. If you encounter any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License.
